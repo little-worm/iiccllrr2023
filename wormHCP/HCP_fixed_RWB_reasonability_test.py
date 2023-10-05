@@ -3,7 +3,7 @@ import os
 import random,time
 from numpy import array,ones,sum
 import itertools,ot,sys,os
-sys.path.append(os.path.abspath( os.path.dirname(__file__) + '../WB' ))
+sys.path.append(os.path.abspath( os.path.dirname(__file__) + '/../WB' ))
 #print("sys.path = ",sys.path)
 from Tools import my_mkdir
 from Fixed_RWB_reasonability import fixed_RWB_reasonability
@@ -17,7 +17,7 @@ epsilon = 50000; eta = 1; UOTRWBIter = 10; testtimes = 10; gamma_list = array([1
 
 ## point_lists,u_list,w_list,barycenter
 cfd = os.path.dirname(__file__)
-locations_weights = np.loadtxt(cfd+'kCluster60Kmeans.brainmatrix_2023_0830', dtype=np.float64, delimiter=' ')
+locations_weights = np.loadtxt(cfd+'/kCluster60Kmeans.brainmatrix_2023_0830', dtype=np.float64, delimiter=' ')
 locations_weights = locations_weights.reshape(int(locations_weights.shape[0]/60),60,5)
 locations_weights = locations_weights[:data_size]
 print("locations_weights = ",locations_weights.shape)

@@ -4,7 +4,7 @@ import random,time
 from numpy import array,ones,sum
 import itertools,ot,sys,os
 cfd = os.path.dirname(__file__)
-sys.path.append(os.path.abspath( cfd + '../WB' ))
+sys.path.append(os.path.abspath( cfd + '/../WB' ))
 print("sys.path = ",sys.path)
 from Tools import my_mkdir
 from Layered_sampling import layeredSamplingTest
@@ -19,7 +19,7 @@ data_size = 989; shift_mean = 0; shift_std = 50; shift_num = 60; Radius = 2000; 
 ## point_lists,u_list,w_list
 cfd = os.path.dirname(__file__)
 
-locations_weights = np.loadtxt(cfd + 'Pointnet_Pointnet2_pytorch-master/8Kmeans.matrix_2023_0922', dtype=np.float32, delimiter=' ')
+locations_weights = np.loadtxt(cfd + '/Pointnet_Pointnet2_pytorch-master/8Kmeans.matrix_2023_0922', dtype=np.float32, delimiter=' ')
 #print(max(locations_weights.flatten()),min(locations_weights.flatten()))
 locations_weights = locations_weights.reshape(-1,60,4)
 locations_weights = locations_weights[:data_size]

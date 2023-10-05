@@ -4,7 +4,7 @@ import numpy as np
 from numpy import array,ones,sum
 import itertools,ot,sys,os
 sys.path.append(os.path.abspath( os.path.dirname(__file__) + '/../WB' ))
-#print("sys.path = ",sys.path)
+print("sys.path = ",sys.path)
 from MNIST_data import loadTenKindsOfGrayImageData,orginalDatesetForLabel_i,turnGrayImages_1D_to_2D,turn23DimImagesToDistribution
 from Tools import my_mkdir
 from Fixed_RWB_reasonability import fixed_RWB_reasonability

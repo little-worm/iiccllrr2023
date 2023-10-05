@@ -3,7 +3,7 @@ import os
 import random,time
 from numpy import array,ones,sum
 import itertools,ot,sys,os
-sys.path.append(os.path.abspath( os.path.dirname(__file__) + '../WB' ))
+sys.path.append(os.path.abspath( os.path.dirname(__file__) + '/../WB' ))
 #print("sys.path = ",sys.path)
 from Tools import my_mkdir
 from Free_RWB_reasonability import free_RWB_reasonability
@@ -18,7 +18,7 @@ freeSupportIter = 5
 
 ## point_lists,u_list,w_list,barycenter
 cfd = os.path.dirname(__file__)
-locations_weights = np.loadtxt(cfd + 'Pointnet_Pointnet2_pytorch-master/8Kmeans.matrix_2023_0922', dtype=np.float32, delimiter=' ')
+locations_weights = np.loadtxt(cfd + '/Pointnet_Pointnet2_pytorch-master/8Kmeans.matrix_2023_0922', dtype=np.float32, delimiter=' ')
 locations_weights = locations_weights.reshape(int(locations_weights.shape[0]/60),60,4)
 locations_weights = locations_weights[:data_size]
 print("locations_weights = ",locations_weights.shape)

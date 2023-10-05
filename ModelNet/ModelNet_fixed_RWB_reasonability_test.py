@@ -3,8 +3,8 @@ import os
 import random,time
 from numpy import array,ones,sum
 import itertools,ot,sys,os
-sys.path.append(os.path.abspath( os.path.dirname(__file__) + '../WB' ))
-#print("sys.path = ",sys.path)
+sys.path.append(os.path.abspath( os.path.dirname(__file__) + '/../WB' ))
+print("sys.path = ",sys.path)
 from Tools import my_mkdir
 from Fixed_RWB_reasonability import fixed_RWB_reasonability
 time0 = time.strftime("%Y-%m-%d %H:%M:%S",time.localtime())
@@ -17,7 +17,7 @@ epsilon = 50000; eta = 1; UOTRWBIter = 10; testtimes = 10; gamma_list = array([1
 
 ## point_lists,u_list,w_list,barycenter
 cfd = os.path.dirname(__file__)
-locations_weights = np.loadtxt(cfd + 'Pointnet_Pointnet2_pytorch-master/8Kmeans.matrix_2023_0922', dtype=np.float32, delimiter=' ')
+locations_weights = np.loadtxt(cfd + '/Pointnet_Pointnet2_pytorch-master/8Kmeans.matrix_2023_0922', dtype=np.float32, delimiter=' ')
 locations_weights = locations_weights.reshape(-1,60,4)
 locations_weights = locations_weights[:data_size]
 print("locations_weights = ",locations_weights.shape)

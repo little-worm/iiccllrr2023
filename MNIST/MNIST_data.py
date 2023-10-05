@@ -13,7 +13,7 @@ import os
 sys.path.append(os.path.abspath( os.path.dirname(__file__) + '/..' ))
 #print("sys.path = ",sys.path)
 cfd = os.path.dirname(__file__)
-
+print("cfd + ../../../data = ",os.path.abspath(cfd + "../../../data"))
 
 
 
@@ -26,7 +26,7 @@ def loadTenKindsOfGrayImageData(outputPointer=None):
 
 
     train_loader = torch.utils.data.DataLoader(
-      torchvision.datasets.MNIST(root= cfd + "../../data", train=True, download=True,
+      torchvision.datasets.MNIST(root= cfd + "../../../data", train=True, download=True,
                                  transform=torchvision.transforms.Compose([
                                    torchvision.transforms.ToTensor()
                                   #   ,torchvision.transforms.Normalize((0.1307,), (0.3081,))
@@ -34,7 +34,7 @@ def loadTenKindsOfGrayImageData(outputPointer=None):
       batch_size=batch_size_train, shuffle=True)
 
     test_loader = torch.utils.data.DataLoader(
-      torchvision.datasets.MNIST(root=cfd + "../../data", train=False, download=True,
+      torchvision.datasets.MNIST(root=cfd + "../../../data", train=False, download=True,
                                  transform=torchvision.transforms.Compose([
                                    torchvision.transforms.ToTensor(),
                                    torchvision.transforms.Normalize(
