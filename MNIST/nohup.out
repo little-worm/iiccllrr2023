@@ -1,0 +1,275 @@
+point_lists =  (300, 60, 2)
+epsilon,eta--in--FastIBP-- =  0.007349478995434014 61.05983416899308
+epsilon,eta--in--FastIBP-- =  0.001472383821799938 61.05983416899308
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 61.05983416899308
+cfd =  
+point_lists =  (300, 60, 2)
+epsilon,eta--in--FastIBP-- =  0.006671644722192494 61.05983416899308
+epsilon,eta--in--FastIBP-- =  0.001237258127316665 61.05983416899308
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 61.05983416899308
+cfd =  
+point_lists =  (300, 60, 2)
+epsilon,eta--in--FastIBP-- =  0.005615336357087974 61.05983416899308
+epsilon,eta--in--FastIBP-- =  0.001114849121474408 61.05983416899308
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 61.05983416899308
+cfd =  
+point_lists =  (300, 60, 2)
+epsilon,eta--in--FastIBP-- =  0.006849082074605224 61.05983416899308
+epsilon,eta--in--FastIBP-- =  0.0007634390186525286 61.05983416899308
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 61.05983416899308
+cfd =  
+point_lists =  (300, 60, 2)
+epsilon,eta--in--FastIBP-- =  0.007560693466804776 61.05983416899308
+epsilon,eta--in--FastIBP-- =  0.0005985882514695642 61.05983416899308
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 61.05983416899308
+cfd =  
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:19: RuntimeWarning: divide by zero encountered in log
+  res = array([log(m) for m in M])
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:457: RuntimeWarning: invalid value encountered in subtract
+  lamb_list = gamma*eta/(gamma+eta) * (lamb_list/eta + wx2Dlog(u_list) - wx2Dlog(A) )
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:459: RuntimeWarning: invalid value encountered in subtract
+  tau_list = eta * ( tau_list/eta - log(B) - tmp_avg )
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:458: RuntimeWarning: invalid value encountered in subtract
+  tmp_avg = dot(w_list, tau_list/eta - log(B))
+point_lists =  (300, 60, 2)
+epsilon,eta--in--FastIBP-- =  0.007671068012967514 61.05983416899308
+epsilon,eta--in--FastIBP-- =  0.0005199280247321309 61.05983416899308
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 61.05983416899308
+cfd =  
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:19: RuntimeWarning: divide by zero encountered in log
+  res = array([log(m) for m in M])
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:457: RuntimeWarning: invalid value encountered in subtract
+  lamb_list = gamma*eta/(gamma+eta) * (lamb_list/eta + wx2Dlog(u_list) - wx2Dlog(A) )
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:459: RuntimeWarning: invalid value encountered in subtract
+  tau_list = eta * ( tau_list/eta - log(B) - tmp_avg )
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:458: RuntimeWarning: invalid value encountered in subtract
+  tmp_avg = dot(w_list, tau_list/eta - log(B))
+point_lists =  (300, 60, 2)
+epsilon,eta--in--FastIBP-- =  0.007357600388939106 61.05983416899308
+epsilon,eta--in--FastIBP-- =  0.00023256751215060948 61.05983416899308
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 61.05983416899308
+cfd =  
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:19: RuntimeWarning: divide by zero encountered in log
+  res = array([log(m) for m in M])
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:458: RuntimeWarning: divide by zero encountered in log
+  tmp_avg = dot(w_list, tau_list/eta - log(B))
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:459: RuntimeWarning: divide by zero encountered in log
+  tau_list = eta * ( tau_list/eta - log(B) - tmp_avg )
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:459: RuntimeWarning: invalid value encountered in subtract
+  tau_list = eta * ( tau_list/eta - log(B) - tmp_avg )
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_WB.py:113: RuntimeWarning: invalid value encountered in add
+  M = lambMatrix + tauMatrix - costMatrix / eta
+point_lists =  (300, 60, 2)
+epsilon,eta--in--FastIBP-- =  0.007896544735242015 61.05983416899308
+epsilon,eta--in--FastIBP-- =  6.449199928403188e-05 61.05983416899308
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 61.05983416899308
+cfd =  
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_WB.py:242: RuntimeWarning: divide by zero encountered in log
+  lamb_list = array([l+log(u)-log(r) for l,u,r in zip(lamb5_list,u_list,R) ])
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_WB.py:251: RuntimeWarning: invalid value encountered in subtract
+  tau11_list = array([t+tmp-log(c) for t,c in zip(tau_list,C)])
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_WB.py:265: RuntimeWarning: invalid value encountered in subtract
+  e_list = array([w*linalg.norm(c-tmp,ord=1) for w,c in zip(w_list,tmp_C) ])
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_WB.py:70: RuntimeWarning: invalid value encountered in divide
+  q = Bc_arr_sum / scale_arr_sum
+point_lists =  (300, 60, 2)
+epsilon,eta--in--FastIBP-- =  0.0065142364294341 61.05983416899308
+epsilon,eta--in--FastIBP-- =  2.105110563017874e-05 61.05983416899308
+Traceback (most recent call last):
+  File "MNIST_numerical_instability.py", line 31, in <module>
+    result_mean,result_std = fixed_RWB_reasonability(point_lists,u_list,barycenter,w_list,gamma_list,zeta,noise_mean,noise_var,epsilon,eta,UOTRWBIter, testtimes)
+  File "/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB_reasonability.py", line 99, in fixed_RWB_reasonability
+    dis1 = ot.emd2(WB_weights,noisyWB_weights,cost_matrix_bb)
+  File "/home/worm/anaconda3/envs/worm/lib/python3.8/site-packages/ot/lp/__init__.py", line 505, in emd2
+    np.testing.assert_almost_equal(a.sum(0),
+  File "/home/worm/anaconda3/envs/worm/lib/python3.8/contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "/home/worm/anaconda3/envs/worm/lib/python3.8/site-packages/numpy/testing/_private/utils.py", line 588, in assert_almost_equal
+    return assert_array_almost_equal(actual, desired, decimal, err_msg)
+  File "/home/worm/anaconda3/envs/worm/lib/python3.8/contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "/home/worm/anaconda3/envs/worm/lib/python3.8/site-packages/numpy/testing/_private/utils.py", line 1099, in assert_array_almost_equal
+    assert_array_compare(compare, x, y, err_msg=err_msg, verbose=verbose,
+  File "/home/worm/anaconda3/envs/worm/lib/python3.8/contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "/home/worm/anaconda3/envs/worm/lib/python3.8/site-packages/numpy/testing/_private/utils.py", line 783, in assert_array_compare
+    flagged = func_assert_same_pos(x, y, func=isnan, hasval='nan')
+  File "/home/worm/anaconda3/envs/worm/lib/python3.8/site-packages/numpy/testing/_private/utils.py", line 753, in func_assert_same_pos
+    raise AssertionError(msg)
+AssertionError: 
+Arrays are not almost equal to 6 decimals
+a and b vector must have the same sum
+x and y nan location mismatch:
+ x: array(1.)
+ y: array([nan])
+point_lists =  (300, 60, 2)
+epsilon,eta--in--FastIBP-- =  0.007353029516789193 61.05983416899308
+epsilon,eta--in--FastIBP-- =  0.001488502541878865 61.05983416899308
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 61.05983416899308
+cfd =  
+point_lists =  (300, 60, 2)
+epsilon,eta--in--FastIBP-- =  0.007534648079192165 61.05983416899308
+epsilon,eta--in--FastIBP-- =  0.0006409351375671571 61.05983416899308
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 61.05983416899308
+cfd =  
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:19: RuntimeWarning: divide by zero encountered in log
+  res = array([log(m) for m in M])
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:457: RuntimeWarning: invalid value encountered in subtract
+  lamb_list = gamma*eta/(gamma+eta) * (lamb_list/eta + wx2Dlog(u_list) - wx2Dlog(A) )
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:459: RuntimeWarning: invalid value encountered in subtract
+  tau_list = eta * ( tau_list/eta - log(B) - tmp_avg )
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:458: RuntimeWarning: invalid value encountered in subtract
+  tmp_avg = dot(w_list, tau_list/eta - log(B))
+point_lists =  (300, 60, 2)
+epsilon,eta--in--FastIBP-- =  0.007343950237393191 61.05983416899308
+epsilon,eta--in--FastIBP-- =  0.0003803050150921491 61.05983416899308
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 61.05983416899308
+cfd =  
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:19: RuntimeWarning: divide by zero encountered in log
+  res = array([log(m) for m in M])
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:457: RuntimeWarning: invalid value encountered in subtract
+  lamb_list = gamma*eta/(gamma+eta) * (lamb_list/eta + wx2Dlog(u_list) - wx2Dlog(A) )
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:459: RuntimeWarning: invalid value encountered in subtract
+  tau_list = eta * ( tau_list/eta - log(B) - tmp_avg )
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:458: RuntimeWarning: invalid value encountered in subtract
+  tmp_avg = dot(w_list, tau_list/eta - log(B))
+point_lists =  (300, 60, 2)
+epsilon,eta--in--FastIBP-- =  0.007460534394762903 61.05983416899308
+epsilon,eta--in--FastIBP-- =  0.00020833953481271314 61.05983416899308
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 61.05983416899308
+cfd =  
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:19: RuntimeWarning: divide by zero encountered in log
+  res = array([log(m) for m in M])
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:457: RuntimeWarning: invalid value encountered in subtract
+  lamb_list = gamma*eta/(gamma+eta) * (lamb_list/eta + wx2Dlog(u_list) - wx2Dlog(A) )
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:459: RuntimeWarning: invalid value encountered in subtract
+  tau_list = eta * ( tau_list/eta - log(B) - tmp_avg )
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:458: RuntimeWarning: invalid value encountered in subtract
+  tmp_avg = dot(w_list, tau_list/eta - log(B))
+point_lists =  (300, 60, 2)
+epsilon,eta--in--FastIBP-- =  0.008106115172224775 61.05983416899308
+epsilon,eta--in--FastIBP-- =  0.00017062018637326246 61.05983416899308
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 61.05983416899308
+cfd =  
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:19: RuntimeWarning: divide by zero encountered in log
+  res = array([log(m) for m in M])
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:458: RuntimeWarning: divide by zero encountered in log
+  tmp_avg = dot(w_list, tau_list/eta - log(B))
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:459: RuntimeWarning: divide by zero encountered in log
+  tau_list = eta * ( tau_list/eta - log(B) - tmp_avg )
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:459: RuntimeWarning: invalid value encountered in subtract
+  tau_list = eta * ( tau_list/eta - log(B) - tmp_avg )
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_WB.py:113: RuntimeWarning: invalid value encountered in add
+  M = lambMatrix + tauMatrix - costMatrix / eta
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:458: RuntimeWarning: invalid value encountered in subtract
+  tmp_avg = dot(w_list, tau_list/eta - log(B))
+point_lists =  (300, 60, 2)
+epsilon,eta--in--FastIBP-- =  0.0076315244094292654 61.05983416899308
+epsilon,eta--in--FastIBP-- =  0.0001373720519066697 61.05983416899308
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 61.05983416899308
+cfd =  
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:19: RuntimeWarning: divide by zero encountered in log
+  res = array([log(m) for m in M])
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:458: RuntimeWarning: divide by zero encountered in log
+  tmp_avg = dot(w_list, tau_list/eta - log(B))
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:459: RuntimeWarning: divide by zero encountered in log
+  tau_list = eta * ( tau_list/eta - log(B) - tmp_avg )
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:459: RuntimeWarning: invalid value encountered in subtract
+  tau_list = eta * ( tau_list/eta - log(B) - tmp_avg )
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_WB.py:113: RuntimeWarning: invalid value encountered in add
+  M = lambMatrix + tauMatrix - costMatrix / eta
+point_lists =  (300, 60, 2)
+epsilon,eta--in--FastIBP-- =  0.007839098496704793 61.05983416899308
+epsilon,eta--in--FastIBP-- =  0.00010191495724273393 61.05983416899308
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 61.05983416899308
+cfd =  
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:19: RuntimeWarning: divide by zero encountered in log
+  res = array([log(m) for m in M])
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:458: RuntimeWarning: divide by zero encountered in log
+  tmp_avg = dot(w_list, tau_list/eta - log(B))
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:459: RuntimeWarning: divide by zero encountered in log
+  tau_list = eta * ( tau_list/eta - log(B) - tmp_avg )
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:459: RuntimeWarning: invalid value encountered in subtract
+  tau_list = eta * ( tau_list/eta - log(B) - tmp_avg )
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_WB.py:113: RuntimeWarning: invalid value encountered in add
+  M = lambMatrix + tauMatrix - costMatrix / eta
+point_lists =  (300, 60, 2)
+epsilon,eta--in--FastIBP-- =  0.00736060847696743 61.05983416899308
+epsilon,eta--in--FastIBP-- =  9.081814528400012e-05 61.05983416899308
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 61.05983416899308
+cfd =  
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:19: RuntimeWarning: divide by zero encountered in log
+  res = array([log(m) for m in M])
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:458: RuntimeWarning: divide by zero encountered in log
+  tmp_avg = dot(w_list, tau_list/eta - log(B))
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:459: RuntimeWarning: divide by zero encountered in log
+  tau_list = eta * ( tau_list/eta - log(B) - tmp_avg )
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:459: RuntimeWarning: invalid value encountered in subtract
+  tau_list = eta * ( tau_list/eta - log(B) - tmp_avg )
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_WB.py:113: RuntimeWarning: invalid value encountered in add
+  M = lambMatrix + tauMatrix - costMatrix / eta
+point_lists =  (300, 60, 2)
+epsilon,eta--in--FastIBP-- =  0.007923192279394224 61.05983416899308
+epsilon,eta--in--FastIBP-- =  5.3301674077808284e-05 61.05983416899308
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 61.05983416899308
+cfd =  

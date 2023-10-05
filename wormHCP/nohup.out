@@ -1,0 +1,220 @@
+Traceback (most recent call last):
+  File "HCP_fixed_RWB_reasonability_test.py", line 8, in <module>
+    from Tools import my_mkdir
+ModuleNotFoundError: No module named 'Tools'
+Traceback (most recent call last):
+  File "HCP_fixed_RWB_reasonability_test.py", line 8, in <module>
+    from Tools import my_mkdir
+ModuleNotFoundError: No module named 'Tools'
+Traceback (most recent call last):
+  File "HCP_fixed_RWB_reasonability_test.py", line 8, in <module>
+    from Tools import my_mkdir
+ModuleNotFoundError: No module named 'Tools'
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:19: RuntimeWarning: divide by zero encountered in log
+  res = array([log(m) for m in M])
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:458: RuntimeWarning: divide by zero encountered in log
+  tmp_avg = dot(w_list, tau_list/eta - log(B))
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:459: RuntimeWarning: divide by zero encountered in log
+  tau_list = eta * ( tau_list/eta - log(B) - tmp_avg )
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:459: RuntimeWarning: invalid value encountered in subtract
+  tau_list = eta * ( tau_list/eta - log(B) - tmp_avg )
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_WB.py:113: RuntimeWarning: invalid value encountered in add
+  M = lambMatrix + tauMatrix - costMatrix / eta
+locations_weights =  (3000, 60, 5)
+u_list =  (3000, 60)
+point_lists,u_list =  (3000, 60, 4) (3000, 60)
+epsilon,eta--in--FastIBP-- =  0.025936374573785517 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.00012298161823870056 3052.9917084496537
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.025936374573785517 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.00013323734526328457 3052.9917084496537
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.025936374573785517 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.00014554746782750777 3052.9917084496537
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.025936374573785517 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.00014026701315366863 3052.9917084496537
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.025936374573785517 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.00014394641242940876 3052.9917084496537
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.025936374573785517 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.00013097056136757892 3052.9917084496537
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.025936374573785517 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.00012815400296422067 3052.9917084496537
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.025936374573785517 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.00014051706092100568 3052.9917084496537
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.025936374573785517 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.00012609389072330273 3052.9917084496537
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.025936374573785517 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.00010247930709583381 3052.9917084496537
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 3052.9917084496537
+cfd =  
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:19: RuntimeWarning: divide by zero encountered in log
+  res = array([log(m) for m in M])
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:458: RuntimeWarning: divide by zero encountered in log
+  tmp_avg = dot(w_list, tau_list/eta - log(B))
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:459: RuntimeWarning: divide by zero encountered in log
+  tau_list = eta * ( tau_list/eta - log(B) - tmp_avg )
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_RWB.py:459: RuntimeWarning: invalid value encountered in subtract
+  tau_list = eta * ( tau_list/eta - log(B) - tmp_avg )
+/home/worm/wormCode_2023_0201/ICLR_2023/iiccllrr2023/WB/Fixed_WB.py:113: RuntimeWarning: invalid value encountered in add
+  M = lambMatrix + tauMatrix - costMatrix / eta
+locations_weights =  (3000, 60, 5)
+u_list =  (3000, 60)
+point_lists,u_list =  (3000, 60, 4) (3000, 60)
+epsilon,eta--in--FastIBP-- =  0.025936374573785517 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.00011382243230392689 3052.9917084496537
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.025936374573785517 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.00011847000232011304 3052.9917084496537
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.025936374573785517 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.0001354028084224226 3052.9917084496537
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.025936374573785517 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.00012069925810175862 3052.9917084496537
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.025936374573785517 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.00015004835040452184 3052.9917084496537
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.025936374573785517 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.00011902027870099358 3052.9917084496537
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.025936374573785517 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.00012917644086622007 3052.9917084496537
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.025936374573785517 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.00011725565902298423 3052.9917084496537
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.025936374573785517 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.00011688230939545992 3052.9917084496537
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.025936374573785517 3052.9917084496537
+epsilon,eta--in--FastIBP-- =  0.00012465079021968287 3052.9917084496537
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+-----------NAN------------
+----------epsilon,eta--in--CraftedFastIBP-- =  0.1 3052.9917084496537
+cfd =  

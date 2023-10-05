@@ -1,0 +1,8 @@
+time0,time1 =  2023-09-26 14:06:13 2023-09-26 16:14:12
+-------------------------------------------------------
+data_size, kClusters,label         =  3000 60 0
+zeta,noise_mean,noise_var          =  0.1 50 50
+epsilon,testtimes                  =  50000 10
+freeSupportIter,repeatTimes,Radius =  3 3 3000
+[len(ll) for ll in layerPoints_list_] =  [49, 5, 2, 8, 7, 9, 9, 7, 3, 6, 12, 12, 13, 14, 2714, 7, 11, 15, 8, 14, 8, 19, 18, 7, 5, 5, 7, 3, 1, 2]
+shift_num,logbase               =  300 1.2

@@ -1,0 +1,6 @@
+time0,time1 =  2023-08-30 20:44:32 2023-08-30 20:51:06
+-------------------------------------------------------
+data_size, kClusters             =  3000 60
+zeta,noise_mean,noise_var        =  0.3 150 100
+epsilon,eta,UOTRWBIter,testtimes =  50000 1 10 5
+gamma_list                       =  [   1    4   16   64  256 1024]

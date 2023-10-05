@@ -1,0 +1,6 @@
+time0,time1 =  2023-10-03 16:18:13 2023-10-03 16:36:51
+-------------------------------------------------------
+data_size, kClusters             =  989 60
+zeta,noise_mean,noise_var        =  0.3 150 150
+epsilon,testtimes =  50000 10
+freeSupportIter                       =  5
