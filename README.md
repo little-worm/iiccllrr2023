@@ -26,4 +26,4 @@ Download alignment ModelNet at https://shapenet.cs.stanford.edu/media/modelnet40
 
 
 
-
+#### The licenses will be update latter. 
